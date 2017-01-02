@@ -1,0 +1,4 @@
+﻿modbus测试由master和slave两部分程序组成，本程序源码参考了Qt5.6.1的modbus源代码
+提取去其中的串口通信部分。代码更易读，VirtualComTest.py这个文件用于虚拟串口，需
+在终端下执行 python VirtualComTest.py即可得到两个虚拟链接的串口端口，方便软件代
+码的调试。程序中应用了modbus的HoldingRegisters数据格式，以十六进制发送和读取数据。
